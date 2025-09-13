@@ -1,0 +1,190 @@
+*
+{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+.navbar
+{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex; /*side by side names will display*/
+    align-items: center; /*all items will be center*/
+    justify-content: space-evenly; /* will give space equally*/
+}
+.border
+{
+     border: 1px solid transparent;
+}
+.border:hover
+{
+    border: 1px solid white; /* border of Geeks for Geeks logo white color*/
+}
+.div5
+{
+    height: 30px;
+    width: 60px;
+}
+.logogfg
+{
+    background-image: url(gfg-gg-logo.svg);
+    background-size: cover;
+    height: 30px;
+    width: 100%;
+}
+.searchbar
+{
+    display: flex;
+    justify-content: space-evenly;
+    height: 30px;
+    
+}
+.search-icon
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    margin-left: 8px;
+}
+.searchbar:hover
+{
+    border: 2px solid rgb(250, 249, 249);
+}
+.nav-bell i
+{
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.nav-bell
+{}
+.mainsearch
+{
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.mainsea
+{
+    height: 40px;
+    border: 1px solid black;
+    width: 60%;
+}
+.navtext
+{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.navtext2
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+.content-div1
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.sub-con-div
+{
+    height: 400px;
+    width: 300px;
+   border: 1px solid black;
+
+   text-align: center;
+   align-items: center;
+
+}
+.content-div2
+{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.image-div
+{
+    height: 150px;
+    width: 300px;
+    background-size: cover;/*fit image properly*/
+    /* background-repeat: no-repeat; */
+
+}
+.img-con
+{
+    font-size: 25px;
+    margin-top: 30px;
+}
+.text-last
+{
+    margin-left: 15px;
+}
+.mini-div
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.mini-text
+{
+    margin-top: 60px;
+    border: 1px solid transparent;
+}
+
+.mini-text:hover
+{
+    color: rgb(22, 174, 103);
+    border: 1px solid white;
+}
+.C-div
+{
+    margin-left: 100px;
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+.footer-div1
+{
+    background-color: black;
+    height: 550px;
+    width: 100%;
+    margin-top: 300px;
+    color: aliceblue;
+    
+
+}
+.footer-div2
+{
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul
+{
+    margin-top: 40px;
+    color: green;
+    justify-content: space-evenly;
+}
+
+ul a
+{
+    display: block;
+    margin-top: 10px;
+    color: aliceblue;
+}
+.div0
+{
+    height: 30px;
+    width: 60px; 
+    margin-left: 590px;
+}
